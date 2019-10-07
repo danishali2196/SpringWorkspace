@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	<endpoint name='Adhar'
+	implementation='com.nt.service.AdharMgmtServiceImpl'
+	url-pattern='/adhar' />
+</endpoints>
+
+
+<!-- <endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime'  version='2.0'> -->
+<!-- 	<endpoint name='CalcualtorService'  -->
+<!-- 		implementation='com.cal.service.CalculatorServiceImpl' -->
+<!-- 		url-pattern='/calculator' /> -->
+<!-- </endpoints> -->

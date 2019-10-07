@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 	<bean id="BaseBike" class="com.nt.bike.Bikes" abstract="true">
+ 		<property name="model" value="apache"/>
+ 		<property name="color" value="black"/>
+ 		<property name="vendor" value="tvs"/>
+ 		<property name="engineCC" value="160"/>
+ 		<property name="idelSpeed" value="100"/>
+ 	</bean>
+ 	
+ 	<bean id="rajaBike" class="com.nt.bike.Bikes" parent="BaseBike">
+ 		<property name="regNo" value="asd1452sd"/>
+ 		<property name="bikeNo" value="mp15lk485"/>
+ 		<property name="ownerName" value="Danish"/>
+ 		<property name="engineNo" value="254169385"/>
+ 		
+ 	</bean>
+ 	
+ 	<bean id="asifBike" class="com.nt.bike.Bikes" parent="BaseBike">
+ 		<property name="regNo" value="asd1458sd"/>
+ 		<property name="bikeNo" value="mp15lk479"/>
+ 		<property name="ownerName" value="asif"/>
+ 		<property name="engineNo" value="254169357"/>
+ 		
+ 	</bean>
+ 
+ 
+ 
+ 
+ 
+ 
+ </beans>       

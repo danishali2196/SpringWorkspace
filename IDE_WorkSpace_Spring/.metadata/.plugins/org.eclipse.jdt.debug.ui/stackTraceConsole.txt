@@ -1,0 +1,3 @@
+com.nt.dao
+com.nt.service
+com.nt.test

@@ -1,0 +1,4 @@
+127.0.0.1 - - [09/Jul/2019:09:13:14 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [09/Jul/2019:09:13:16 +0530] "GET /MVCProj5-WishApp-TwoContainer/ HTTP/1.1" 200 106
+0:0:0:0:0:0:0:1 - - [09/Jul/2019:09:13:20 +0530] "GET /MVCProj5-WishApp-TwoContainer/home.htm HTTP/1.1" 200 68
+0:0:0:0:0:0:0:1 - - [09/Jul/2019:09:13:22 +0530] "GET /MVCProj5-WishApp-TwoContainer/wish.htm HTTP/1.1" 200 37

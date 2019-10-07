@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;DependenceLookup_CricketerExample&apos;&#x0D;&#x0A;- Original project: &apos;DependenceLookup_CricketerExample&apos;&#x0D;&#x0A;- Original element: &apos;DependenceLookup_CricketerExample/src/com.nt.DependenceLookUpTest&apos;" description="Delete element" element1="/src&lt;com.nt.DependenceLookUpTest" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1553491661013" subPackages="false" version="1.0"/>
+</session>

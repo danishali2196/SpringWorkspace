@@ -1,0 +1,5 @@
+127.0.0.1 - - [02/Mar/2019:11:57:14 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:11:57:23 +0530] "GET /IOCProj2_loosely_coupling/ HTTP/1.1" 404 1104
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:11:57:58 +0530] "GET /IOCProj2_loosely_coupling/WEB-INF/classes/com/nt/test/LCTest.java HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:11:58:07 +0530] "GET /IOCProj2_loosely_coupling/WEB-INF/classes/com/nt/test/LCTest.java HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [02/Mar/2019:11:58:31 +0530] "GET /IOCProj2_loosely_coupling/ HTTP/1.1" 404 1104

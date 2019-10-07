@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+<bean id="eng1" class="com.nt.beans.Engine">
+		<property name="engNo" value="1254"/>
+		<property name="type" value="petrol"/>
+		<qualifier value="p"/>
+</bean>
+<bean id="eng" class="com.nt.beans.Engine">
+		<property name="engNo" value="2541"/>
+		<property name="type" value="diesel"/>
+		<qualifier value="p"/>
+</bean>
+
+<bean id="vehicle" class="com.nt.beans.Vehicle"/>
+
+<context:annotation-config/>
+
+</beans>

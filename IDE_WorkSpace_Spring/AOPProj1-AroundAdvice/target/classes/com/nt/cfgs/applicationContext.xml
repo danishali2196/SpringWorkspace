@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="bankService" class="com.nt.service.BankService"/>
+	<bean id="pma" class="com.nt.aspect.PerfomanceMgmtAdvice"/>
+	<bean id="cAdvice" class="com.nt.aspect.CacheAdvice"/>
+	<bean id="logAdvice" class="com.nt.aspect.LogAroundAdvice"/>
+	
+	<bean id="pfb" class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target"  ref="bankService"></property>
+		<property name="interceptorNames">
+			<array>
+				<value>logAdvice</value>
+				<value>cAdvice</value>
+				<value>pma</value>			
+			</array>
+		</property>
+	</bean>
+
+</beans>

@@ -1,0 +1,16 @@
+127.0.0.1 - - [19/Aug/2019:20:13:53 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:14:07 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/ HTTP/1.1" 200 220
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:15:03 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/ HTTP/1.1" 200 220
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:15:06 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:15:09 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/ HTTP/1.1" 200 220
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:15:12 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/reg.htm HTTP/1.1" 200 676
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:15:36 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/fetch.htm HTTP/1.1" 200 407
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:15:38 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/index.jsp HTTP/1.1" 200 220
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:15:51 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/adhar HTTP/1.1" 404 121
+127.0.0.1 - - [19/Aug/2019:20:18:41 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:18:43 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/ HTTP/1.1" 200 220
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:20:10 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/ HTTP/1.1" 200 220
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:20:11 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:20:16 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/adhar HTTP/1.1" 404 121
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:21:05 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/Adhar HTTP/1.1" 404 1133
+0:0:0:0:0:0:0:1 - - [19/Aug/2019:20:21:13 +0530] "GET /MVCProj22-MiniProject-WebServiceProvider-AdharApp/adhar HTTP/1.1" 404 121

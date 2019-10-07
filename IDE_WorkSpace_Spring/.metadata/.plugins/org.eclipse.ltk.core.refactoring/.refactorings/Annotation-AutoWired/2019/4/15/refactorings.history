@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.nt.cfg&apos; to &apos;com.nt.cfgs&apos;&#x0D;&#x0A;- Original project: &apos;Annotation-AutoWired&apos;&#x0D;&#x0A;- Original element: &apos;Annotation-AutoWired/src/com.nt.cfg&apos;&#x0D;&#x0A;- Renamed element: &apos;Annotation-AutoWired/src/com.nt.cfgs&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.nt.cfg&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.nt.cfg" name="com.nt.cfgs" qualified="false" references="true" stamp="1555092849770" textual="false" version="1.0"/>
+</session>

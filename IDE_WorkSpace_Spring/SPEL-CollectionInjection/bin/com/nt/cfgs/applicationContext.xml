@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+	<bean id="ci" class="com.nt.beans.CourseInfo">
+			<property name="domain" value="JAVA"/>
+			<property name="institute" value="NareshIT"/>
+			<property name="courses">
+					<list>
+							<value>CoreJava</value>
+							<value>AdvJava</value>
+							<value>Spring</value>
+							<value>Hibernate</value>
+							<value>DesignPattern</value>
+							<value>Project</value>
+					</list>
+			</property>
+			<property name="faculties">
+					<array>
+							<value>HK</value>
+							<value>Nataraj</value>
+							<value>Ashok</value>
+							<value>Venkatesh</value>
+							<value>Sai</value>
+					</array>
+			</property>
+			<property name="durations">
+					<map>
+							<entry key="CoreJava" value="6"/>
+							<entry key="AdvJava" value="4"/>
+							<entry key="Spring" value="6"/>
+							<entry key="Hibernate" value="4"/>
+							<entry key="DesignPattern" value="1"/>
+							<entry key="Project" value="2"/>
+					</map>
+			</property>
+			<property name="price">
+					<map>
+							<entry key="CoreJava" value="1000"/>
+							<entry key="AdvJava" value="1000"/>
+							<entry key="Spring" value="1500"/>
+							<entry key="Hibernate" value="700"/>
+							<entry key="DesignPattern" value="1200"/>
+							<entry key="Project" value="2500"/>
+					</map>
+			</property>
+			<property name="discount" value="5"/>
+	</bean>
+	
+	<bean id="st" class="com.nt.beans.Student">
+			<property name="regNo" value="101"/>
+			<property name="name" value="Danish"/>
+			<property name="availedCourses" value="java"/>
+
+	</bean>
+
+</beans>

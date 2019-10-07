@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Annotation-RequerdAnn&apos; to &apos;Annotation-RequiredAnn&apos;&#x0D;&#x0A;- Original element: &apos;Annotation-RequerdAnn&apos;&#x0D;&#x0A;- Renamed element: &apos;Annotation-RequerdAnn&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Annotation-RequerdAnn&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Annotation-RequerdAnn" name="Annotation-RequiredAnn" references="true" stamp="1555092758893" version="1.0"/>
+</session>

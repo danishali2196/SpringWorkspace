@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Student_MiniProject_LayeredApplication/C:\/oraclexe\/app\/oracle\/product\/11.2.0\/server\/jdbc\/lib\/ojdbc6.jar&amp;lt;oracle.sql(CharacterSetFactory.class[CharacterSetFactory&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=I18N-Using_PropertiesFile_Spring/src&amp;lt;com.nt.test{I18Test.java[I18Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=Student_MiniProject_LayeredApplication/C:\/oraclexe\/app\/oracle\/product\/11.2.0\/server\/jdbc\/lib\/ojdbc6.jar&amp;lt;oracle.jdbc.driver(OracleSql.class[OracleSql&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=I18N-Using_PropertiesFile_Spring_UsingDropDown/src&amp;lt;com.nt.test{I18Test.java[I18Test&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringBatchProj1/C:\/Users\/DELL\/.m2\/repository\/junit\/junit\/3.8.1\/junit-3.8.1.jar&amp;lt;junit.textui(TestRunner.class[TestRunner&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringBatchProj1/src\/main\/java&amp;lt;com.nt.test{App.java[App&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringBatchProj1/C:\/Users\/DELL\/.m2\/repository\/org\/springframework\/batch\/spring-batch-core\/4.1.2.RELEASE\/spring-batch-core-4.1.2.RELEASE.jar&amp;lt;org.springframework.batch.core.launch.support(JobRegistryBackgroundJobRunner.class[JobRegistryBackgroundJobRunner&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=SpringBatchProj1/C:\/Users\/DELL\/.m2\/repository\/org\/springframework\/batch\/spring-batch-core\/4.1.2.RELEASE\/spring-batch-core-4.1.2.RELEASE.jar&amp;lt;org.springframework.batch.core.launch.support(CommandLineJobRunner.class[CommandLineJobRunner&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="391" key="DIALOG_X_ORIGIN"/>
+			<item value="44" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

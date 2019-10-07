@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+	<bean id="c1" class="java.lang.Class" factory-method="forName">
+		<constructor-arg value="java.util.Date"/>
+	</bean>
+	<bean id="c2" class="java.util.Calendar" factory-method="getInstance"/>
+	
+<!-- 	using Instance Factory-method -->
+	<bean id="s1" class="java.lang.String">
+		<constructor-arg value="hello"/>
+	</bean>
+	<bean id="s2" factory-bean="s1" factory-method="concat">
+		<constructor-arg value="how are you?"/>
+	</bean>
+	
+</beans>

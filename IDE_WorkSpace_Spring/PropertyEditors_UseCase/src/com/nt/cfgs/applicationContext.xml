@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="aCard" class="com.nt.beans.AadharDetails">
+		<property name="aadharNo" value="123456"/>
+		<property name="name"  value="Danish"/>
+		<property name="dob" value="08/21/1996"/>
+		<property name="photo" value="c:/photos/danish.png"/>
+		<property name="isValid"  value="true"/>
+		<property name="favoreteCharcter" value="sdhs"/>
+		<property name="favChar" value="d"/>
+		<property name="phone" value="7777888"/>
+		<property name="accNo" value="152412547896547"/>
+		<property name="twetterAcc" value="http://www.twetter.com/danish"/>
+		<property name="linkedIn"  value="linkedin/DANISH"></property>
+	</bean>
+
+</beans>

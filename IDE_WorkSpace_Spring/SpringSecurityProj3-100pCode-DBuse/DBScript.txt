@@ -1,0 +1,29 @@
+SQL> create table users(uname varchar2(15)primary key,pwd varchar2(15),status number(1));
+
+SQL> create table roll_user(rollId number(5)primary key,rollname varchar2(20),uname varchar2(15) references users(uname));
+
+
+SQL> update users set pwd = concat('{noop}','pwd');
+
+3 rows updated.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> select * from users;
+
+UNAME           PWD                 STATUS
+--------------- --------------- ----------
+danish          {noop}pwd                1
+arif            {noop}pwd                1
+asdf            {noop}pwd                1
+
+SQL> select * from roll_user;
+
+    ROLLID ROLLNAME             UNAME
+---------- -------------------- ---------------
+       100 roll_passenger       danish
+       101 roll_visitor         arif
+       102 roll_passenger       asdf
+       103 roll_visitor         asdf

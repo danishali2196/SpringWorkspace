@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MVCProj12-MiniProject-AllCurdOperations/WebContent/WEB-INF/pages/show_emp.jsp&apos; to &apos;show_cric.jsp&apos;" description="Rename resource &apos;show_emp.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/pages/show_emp.jsp" name="show_cric.jsp" stamp="1564851509188" updateReferences="true"/>
+</session>

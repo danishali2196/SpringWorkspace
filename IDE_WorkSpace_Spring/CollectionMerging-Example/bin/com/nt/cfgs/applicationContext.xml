@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-merge="true" xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="base1styear" class="com.nt.bean.EnggCourse" abstract="true">
+	<property name="subjects">
+		<set>
+			<value>c</value>
+			<value>math</value>
+			<value>physics</value>
+		</set>
+	</property>
+	</bean>
+	<bean id="1stCse" class="com.nt.bean.EnggCourse" parent="base1styear">
+		<property name="subjects">
+			<set merge="true">
+				<value>DataStructure</value>
+				<value>os</value>
+			</set>
+		</property>
+	</bean>
+	<bean id="1stEc" class="com.nt.bean.EnggCourse" parent="base1styear">
+		<property name="subjects">
+			<set merge="default">
+			<value>microp</value>
+			<value>adc</value>
+			</set>
+		</property>
+	
+	</bean> 
+
+</beans>        

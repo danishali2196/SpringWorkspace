@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;MVCProj12-MiniProject-AllCurdOperations&apos;&#x0D;&#x0A;- Original project: &apos;MVCProj12-MiniProject-AllCurdOperations&apos;&#x0D;&#x0A;- Original element: &apos;com.nt.command.CricketerEditCommand.java&apos;" description="Delete element" element1="/src&lt;com.nt.command{CricketerEditCommand.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1565071528124" subPackages="false" version="1.0"/>
+</session>

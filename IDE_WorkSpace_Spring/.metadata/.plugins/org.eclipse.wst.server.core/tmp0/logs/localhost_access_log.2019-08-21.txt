@@ -1,0 +1,3 @@
+127.0.0.1 - - [21/Aug/2019:22:15:02 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [21/Aug/2019:22:15:09 +0530] "GET /MVCProj7-ACC-RecordSearce/ HTTP/1.1" 200 2821
+0:0:0:0:0:0:0:1 - - [21/Aug/2019:22:15:29 +0530] "POST /MVCProj7-ACC-RecordSearce/search.htm HTTP/1.1" 200 2658

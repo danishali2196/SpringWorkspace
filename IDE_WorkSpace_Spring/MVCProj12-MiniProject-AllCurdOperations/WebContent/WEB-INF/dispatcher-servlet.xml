@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+
+	<bean  class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="home.htm">pvc</prop>
+				<prop key="add.htm">cricController</prop>
+					<prop key="list.htm">lce</prop>
+					<prop key="delete.htm">cricDelete</prop>
+					<prop key="edit.htm">cricEdit</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<bean id="pvc" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+		<property name="viewName" value="welcome"/>
+	</bean>
+
+	<bean id="cricEdit" class="com.nt.controller.EdirCricketerController">
+		<constructor-arg ref="cricService"/>
+		<property name="successView" value="result"/>
+		<property name="formView" value="edit"/>
+		<property name="commandName" value="editcmd"/>
+		<property name="commandClass" value="com.nt.command.CricketerCommand"/>
+<!-- 		<property name="sessionForm" value="true"/> -->
+	</bean>
+	
+	<bean id="cricDelete" class="com.nt.controller.DeleteCricketerController">
+			<constructor-arg ref="cricService"/>
+	</bean>
+	
+	<bean id="cricController" class="com.nt.controller.CricketerController">
+		<constructor-arg ref="cricService"/>
+		<property name="successView" value="result"/>
+		<property name="formView" value="cricReg"/>
+		<property name="commandName" value="criccmd"/>
+		<property name="commandClass" value="com.nt.command.CricketerCommand"/>
+		<property name="sessionForm" value="true"/>
+	</bean>
+	
+	
+	 <bean id="lce" class="com.nt.controller.CricGetController">
+ 	<constructor-arg ref="cricService"/>
+ </bean>
+	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/pages/"/>
+		<property name="suffix" value=".jsp"/>
+	</bean>
+
+</beans>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=StrategyDesignPettern-VhichleExeple/src&lt;com.nt.comp{Engine.java[Engine" modifiers="513" timestamp="1551203995117"/>
+<typeInfo handle="=IOCProj2\(loosely coupling)/src&lt;com.nt.beans{Courier.java[Courier" modifiers="513" timestamp="1549979346571"/>
+<typeInfo handle="=IOCProj2\(loosely coupling)/C:\/Program Files\/Java\/jre1.8.0_131\/lib\/rt.jar&lt;org.w3c.dom.css(Counter.class[Counter" modifiers="1537" timestamp="1568832136818"/>
+<typeInfo handle="=NestedBeanFactory-LayeredApp-GetEmployeeByDesg/src&lt;com.nt.dao{EmpDAO.java[EmpDAO" modifiers="513" timestamp="1552886258703"/>
+<typeInfo handle="=NestedBeanFactory-LayeredApp-GetEmployeeByDesg/src&lt;com.nt.service{EmpService.java[EmpService" modifiers="513" timestamp="1552889113625"/>
+<typeInfo handle="=SpringBoot_StrategyDP_flipkartApp/src\/main\/java&lt;com.nt.beans{Courier.java[Courier" modifiers="513" timestamp="1556081626178"/>
+<typeInfo handle="=SpringBoot_LayeredApp_LombokApi/src\/main\/java&lt;com.nt.dao{StudentDAO.java[StudentDAO" modifiers="513" timestamp="1556089189381"/>
+<typeInfo handle="=SpringBoot_LayeredApp_LombokApi/src\/main\/java&lt;com.nt.service{StudentService.java[StudentService" modifiers="513" timestamp="1556089352124"/>
+<typeInfo handle="=DAOProjWeb/src&lt;com.nt.dao{EmpDAO.java[EmpDAO" modifiers="513" timestamp="1557939619594"/>
+<typeInfo handle="=DAOProj8-BatchProsessing/src\/main\/java&lt;com.nt.dao{PassengerDAO.java[PassengerDAO" modifiers="513" timestamp="1558198110087"/>
+<typeInfo handle="=DAOProj8-BatchProsessing/src\/main\/java&lt;com.nt.service{PassengerMgmtService.java[PassengerMgmtService" modifiers="513" timestamp="1558200365181"/>
+<typeInfo handle="=DAOProj9-NamedParameter/src\/main\/java&lt;com.nt.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1558454205268"/>
+<typeInfo handle="=DAOProj9-NamedParameter/src\/main\/java&lt;com.nt.service{EmployeeMgmtService.java[EmployeeMgmtService" modifiers="513" timestamp="1558455103738"/>
+<typeInfo handle="=DAOProj10-SimpleJDBCInsert/src\/main\/java&lt;com.nt.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1558540748720"/>
+<typeInfo handle="=DAOProj10-SimpleJDBCInsert/src\/main\/java&lt;com.nt.service{EmployeeMgmtService.java[EmployeeMgmtService" modifiers="513" timestamp="1558541944425"/>
+<typeInfo handle="=MVCFrontControllerServlet/src&lt;com.nt.handler{Handler.java[Handler" modifiers="513" timestamp="1561778277771"/>
+<typeInfo handle="=MVCFrontControllerServlet/D:\/Apache 9.x\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1536099264000"/>
+<typeInfo handle="=MVCFirstApp/D:\/Spring5.0.x\/spring-framework-5.0.9.RELEASE\/libs\/spring-webmvc-5.0.9.RELEASE.jar&lt;org.springframework.web.servlet.mvc(Controller.class[Controller" modifiers="1537" timestamp="1536301204000"/>
+<typeInfo handle="=DAOProjWeb/C:\/Program Files\/Java\/jre1.8.0_131\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1568832136818"/>
+<typeInfo handle="=MVCFirstApp/D:\/Spring5.0.x\/spring-framework-5.0.9.RELEASE\/libs\/spring-webmvc-5.0.9.RELEASE.jar&lt;org.springframework.web.servlet.mvc(AbstractController.class[AbstractController" modifiers="1057" timestamp="1536301204000"/>
+<typeInfo handle="=MVCproj6-LayearedApp/src&lt;com.nt.dao{EmployeeDAO.java[EmployeeDAO" modifiers="513" timestamp="1562769442262"/>
+<typeInfo handle="=MVCProj9-SimpleFormController-ServerSideFormValidation-CustomerRegistration-DublePostingSolution/D:\/spring-framework-3.1.RELEASE\/org.springframework.context-3.1.1.RELEASE.jar&lt;org.springframework.validation(Validator.class[Validator" modifiers="1537" timestamp="1332858694000"/>
+<typeInfo handle="=MVCProj9-SimpleFormController-ServerSideFormValidation-CustomerRegistration-DublePostingSolution/C:\/Program Files\/Java\/jre1.8.0_131\/lib\/rt.jar&lt;com.sun.xml.internal.bind(ValidationEventLocatorEx.class[ValidationEventLocatorEx" modifiers="1537" timestamp="1568832136818"/>
+<typeInfo handle="=MVCProj15-MultiActionController/D:\/spring-framework-3.1.RELEASE\/org.springframework.web.servlet-3.1.1.RELEASE.jar&lt;org.springframework.web.servlet.mvc.multiaction(MultiActionController.class[MultiActionController" modifiers="33" timestamp="1332858694000"/>
+<typeInfo handle="=MVCProj16-Shadi.com-AbstrsctWizardFormController/D:\/spring-framework-3.1.RELEASE\/org.springframework.web.servlet-3.1.1.RELEASE.jar&lt;org.springframework.web.servlet.mvc(AbstractWizardFormController.class[AbstractWizardFormController" modifiers="1049633" timestamp="1332858694000"/>
+<typeInfo handle="=MVCProj12-MiniProject-AllCurdOperations/D:\/spring-framework-3.1.RELEASE\/org.springframework.web.servlet-3.1.1.RELEASE.jar&lt;org.springframework.web.servlet.mvc(AbstractController.class[AbstractController" modifiers="1057" timestamp="1332858694000"/>
+<typeInfo handle="=MVCProj14-BinderMethod/D:\/spring-framework-3.1.RELEASE\/org.springframework.web.servlet-3.1.1.RELEASE.jar&lt;org.springframework.web.servlet.mvc(SimpleFormController.class[SimpleFormController" modifiers="1048609" timestamp="1332858694000"/>
+<typeInfo handle="=MVCAnnoProj18-WishApp/src&lt;com.nt.service{WishMsgService.java[WishMsgService" modifiers="513" timestamp="1565073354028"/>
+<typeInfo handle="=MVC100pCode25-RecordSearce/D:\/Spring5.0.x\/spring-framework-5.0.9.RELEASE\/libs\/spring-webmvc-5.0.9.RELEASE.jar&lt;org.springframework.web.servlet.support(AbstractAnnotationConfigDispatcherServletInitializer.class[AbstractAnnotationConfigDispatcherServletInitializer" modifiers="1057" timestamp="1536301204000"/>
+<typeInfo handle="=JUnitTest/src&lt;com.nt.calc{BankIntrAmt.java[BankIntrAmt" modifiers="513" timestamp="1566754200942"/>
+<typeInfo handle="=MVCBoot4-CurdOperation-InMemory/src\/main\/java&lt;com.nt.dao{StudentDAO.java[StudentDAO" modifiers="513" timestamp="1567184622780"/>
+<typeInfo handle="=Property Editor-Custom/C:\/Program Files\/Java\/jre1.8.0_131\/lib\/rt.jar&lt;java.beans(PropertyEditorSupport.class[PropertyEditorSupport" modifiers="1" timestamp="1568832136818"/>
+</typeInfoHistroy>

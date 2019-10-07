@@ -1,0 +1,12 @@
+SQL> select * from USER_LOGIN;
+
+USERNAME        PASSWORD
+--------------- ---------------
+danish          ali
+be              cse
+
+SQL> desc USER_LOGIN;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ USERNAME                                           VARCHAR2(15)
+ PASSWORD                                           VARCHAR2(15)

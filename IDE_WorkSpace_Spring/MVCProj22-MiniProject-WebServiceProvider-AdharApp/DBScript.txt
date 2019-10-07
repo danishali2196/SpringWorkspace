@@ -1,0 +1,4 @@
+SQL> create sequence andhar_seq start with 1000 increment by 1;
+
+
+SQL> create table adhar_details(adharid number(16) primary key,name varchar2(15),dob date,gender varchar2(7),addrs varchar2(25),mobile number(10));

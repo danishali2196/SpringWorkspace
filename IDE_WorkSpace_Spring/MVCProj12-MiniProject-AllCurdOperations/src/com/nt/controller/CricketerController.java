@@ -1,0 +1,38 @@
+package com.nt.controller;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.validation.BindException;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.SimpleFormController;
+
+import com.nt.command.CricketerCommand;
+import com.nt.dto.CricketerDTO;
+import com.nt.service.CricService;
+
+public class CricketerController extends SimpleFormController {
+	private CricService service;
+	
+	public CricketerController(CricService service) {
+		System.out.println("CricketerController.CricketerController()");
+		this.service = service;
+	}
+	
+	@Override
+	public ModelAndView onSubmit( Object command,	BindException errors) throws Exception {
+		String msg=null;
+		System.out.println("CricketerController.onSubmit()");
+		CricketerCommand cmd=(CricketerCommand) command;
+		
+		//concert cmd to dto
+		CricketerDTO dto = new CricketerDTO();
+		
+		BeanUtils.copyProperties(cmd, dto);
+		
+		//use service
+		msg=service.saveCricketer(dto);
+		
+	return new ModelAndView(this.getSuccessView(), "msg",msg);
+	}
+
+
+}

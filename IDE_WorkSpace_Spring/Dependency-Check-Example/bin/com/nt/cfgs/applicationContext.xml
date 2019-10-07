@@ -1,0 +1,19 @@
+<!-- Note::- this dependency check is not working because this operation  -->
+<!-- 		requared old varsion Spring..... -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+     <bean id="eng" class="com.nt.bean.Engine">
+     	<property name="type" value="diesel"></property>
+     </bean>
+     <bean id="veh" class="com.nt.bean.Vehicle">
+     	<property name="engine" ref="eng"/>
+     </bean>
+     
+        
+</beans>

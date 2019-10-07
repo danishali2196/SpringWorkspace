@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="x" value="443"/>
+		<item key="y" value="15"/>
+		<item key="height" value="531"/>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\IDE_WorkSpace_Spring\SpringSecurityProj1-NonMvc-UserAuthentication"/>
+			<item value="D:\IDE_WorkSpace_Spring\MVCproj6-LayearedApp"/>
+			<item value="D:\IDE_WorkSpace_Spring\DAOProj4-CallbackInterface_RowMapper"/>
+			<item value="D:\IDE_WorkSpace_Spring"/>
+			<item value="D:\IDE_WorkSpace_Spring\Annotation-I18N-Using_PropertiesFile_Spring"/>
+			<item value="D:\IDE_WorkSpace_Spring\DependenceLookup_With_Aware_Injection_CricketerExample\src\com\nt\cfgs"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="nit.SpringBatchProj1"/>
+			<item value="nit.SpringSecurityProj3_100pCode_DBuse"/>
+			<item value="nit.SpringSecurityProj2_Mvc_RailWayEnquery"/>
+			<item value="nit.SpringSecurityProj1_NonMvc_UserAuthentication"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringBatchProj1"/>
+			<item value="SpringSecurityProj3-100pCode-DBuse"/>
+			<item value="SpringSecurityProj2-Mvc-RailWayEnquery"/>
+			<item value="SpringSecurityProj1-NonMvc-UserAuthentication"/>
+			<item value="MVCAnnoProj23-tilesExample"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

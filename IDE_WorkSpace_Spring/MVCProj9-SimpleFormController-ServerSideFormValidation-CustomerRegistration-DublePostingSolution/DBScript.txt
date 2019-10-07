@@ -1,0 +1,6 @@
+
+SQL> create table customer_registration(custno number(5),cname varchar2(15),caddrs varchar2(10),mobileno number(10),billamt number(10,2));
+
+
+
+SQL> create sequence custno_seq start with 100 increment by 1;

@@ -1,0 +1,6 @@
+127.0.0.1 - - [22/Jul/2019:23:55:15 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [22/Jul/2019:23:55:17 +0530] "GET /MVCProj9-SimpleFormController-ServerSideFormValidation-CustomerRegistration-DublePostingSolution/ HTTP/1.1" 200 3148
+0:0:0:0:0:0:0:1 - - [22/Jul/2019:23:55:22 +0530] "POST /MVCProj9-SimpleFormController-ServerSideFormValidation-CustomerRegistration-DublePostingSolution/;jsessionid=7EBCEC768672FF85343D064B482CE39D HTTP/1.1" 200 3342
+0:0:0:0:0:0:0:1 - - [22/Jul/2019:23:55:32 +0530] "POST /MVCProj9-SimpleFormController-ServerSideFormValidation-CustomerRegistration-DublePostingSolution/ HTTP/1.1" 200 3239
+0:0:0:0:0:0:0:1 - - [22/Jul/2019:23:55:37 +0530] "POST /MVCProj9-SimpleFormController-ServerSideFormValidation-CustomerRegistration-DublePostingSolution/ HTTP/1.1" 200 3655
+0:0:0:0:0:0:0:1 - - [22/Jul/2019:23:55:55 +0530] "POST /MVCProj9-SimpleFormController-ServerSideFormValidation-CustomerRegistration-DublePostingSolution/ HTTP/1.1" 200 3669

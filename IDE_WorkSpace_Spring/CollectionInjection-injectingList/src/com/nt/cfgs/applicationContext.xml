@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+   <bean id="stu" class="com.nt.beans.Student">
+ 		<property name="marks">
+ 			<list>
+ 				<value>58</value>
+ 				<value>85</value>
+ 				<value>75</value>
+ 			</list>
+ 		</property>  
+   		<property name="name">
+   			<list>
+   				<value>danish</value>
+   				<value>asif</value>
+   				<value>sohail</value>
+   			</list>
+   		</property>
+   
+   </bean>     
+        
+  </beans>      

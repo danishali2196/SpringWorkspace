@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;customer.jsp&apos; to &apos;pages&apos;&#x0D;&#x0A;- Original project: &apos;MVCProj8-SimpleFormController-CustomerRegistration-DublePostingSolution&apos;&#x0D;&#x0A;- Destination element: &apos;pages&apos;&#x0D;&#x0A;- Original element: &apos;customer.jsp&apos;" description="Copy file" element1="WebContent/WEB-INF/pages/customer.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1563982082748" target="/MVC12-MiniProject-AllCurdOperations/WebContent/WEB-INF/pages" units="0" version="1.0"/>
+</session>

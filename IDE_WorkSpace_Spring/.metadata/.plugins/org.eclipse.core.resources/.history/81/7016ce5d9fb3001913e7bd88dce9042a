@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" isELIgnored="false"%>
+<%@taglib uri="http://www.springframework.org/tags/form"  prefix="form"%>    
+    
+    <form:form method="POST" commandName="metCmd">
+    Qualification :: <form:input path="qlfy"/><br>
+    Designation :: <form:input path="desg"/><br>
+    Salary :: <form:input path="salary"/><br>
+    <input type="submit" value="Pre"  name="_target0">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Next"  name="_target2">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Cancel"  name="_cancel">
+    
+    
+    	
+    </form:form>

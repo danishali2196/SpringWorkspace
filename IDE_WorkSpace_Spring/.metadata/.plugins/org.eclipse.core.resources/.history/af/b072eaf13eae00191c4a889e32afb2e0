@@ -1,0 +1,56 @@
+package com.nt.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+
+import com.nt.bo.CricketerBO;
+import com.nt.dao.CricDAO;
+import com.nt.dto.CricketerDTO;
+
+public class CricServiceImpl implements CricService {
+
+	private CricDAO dao;
+	
+	public CricServiceImpl(CricDAO dao) {
+		System.out.println("CricServiceImpl.CricServiceImpl()");
+		this.dao = dao;
+	}
+
+	@Override
+	public String saveCricketer(CricketerDTO dto) {
+		CricketerBO bo=null;
+		String msg=null;
+		
+		//convert dto to bo
+		bo=new CricketerBO();
+		BeanUtils.copyProperties(dto, bo);
+		
+		//use dao
+		return msg=dao.insertCricketer(bo)==1?"record inserted":"record insertion failed";
+		
+	}
+
+	@Override
+	public List<CricketerDTO> feactAllCricketer() {
+		List<CricketerDTO> listDto=new ArrayList();
+		List<CricketerBO> listBo=null;
+		
+		//use dao
+		listBo=dao.getAllCricketer();
+		listBo.forEach(bo->{
+			CricketerDTO dto=new CricketerDTO();
+			BeanUtils.copyProperties(bo, dto);
+			listDto.add(dto);
+		});
+		
+		
+		return listDto;
+	}
+
+	
+
+
+
+}

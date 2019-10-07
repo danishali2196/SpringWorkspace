@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+        <!-- DataSource configuration -->
+        
+        <bean id="drds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+        <property name="url" value="jdbc:oracle:thin:@localhost:1521:xe" />
+        <property name="username" value="system" />
+        <property name="password" value="manager" />
+        </bean>
+        
+ <!--         DAO cnfg --> 
+<!--   	   <bean id="studDAO" class="DAO.StudentDAOImpl">	    -->
+<!--         <constructor-arg ref="drds"/> -->
+<!--         </bean> -->
+			
+			
+        
+		<!--Service cnfg -->
+<!--         <bean id="stService" class="Service.StudentServiceImpl"> -->
+<!--         <constructor-arg ref="stDAO" /> -->
+<!--         </bean> -->
+        
+<!--         Controller cnfg -->
+<!--         <bean id="controller" class="Controller.MainController"> -->
+<!--         <constructor-arg ref="stService" /> -->
+<!--         </bean> -->
+        
+		<context:component-scan base-package="Controller"/>
+		<context:component-scan base-package="DAO"/>
+		<context:component-scan base-package="Service"/>
+    
+</beans>

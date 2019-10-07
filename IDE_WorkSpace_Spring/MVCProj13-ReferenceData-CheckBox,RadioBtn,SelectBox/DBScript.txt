@@ -1,0 +1,24 @@
+
+SQL> select * from countries;
+
+COUNTRY
+---------------
+india
+uk
+usa
+new zealand
+
+SQL> desc countries
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ COUNTRY                                            VARCHAR2(15)
+ 
+ ===================================================================
+ SQL> select * from gender;
+
+GENDERTYPE
+----------
+male
+female
+other
+ 

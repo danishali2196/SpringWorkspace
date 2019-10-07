@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+<!-- 	<bean id="scoreService" class="com.nt.service.FindScoreServiceImpl"> -->
+<!-- 		<property name="externalComp" ref="serviceLocator"></property> -->
+<!-- 	</bean> -->
+	
+	<bean id="serciceLocator" class="com.nt.serviceLocator.ScoreCompServiceLocator"/>
+	
+	<bean id="externalService" factory-bean="serciceLocator" factory-method="getService"/>
+	
+	<bean id="ScoreService" class="com.nt.service.FindScoreServiceImpl">
+		<property name="externalComp" ref="externalService"></property>
+	</bean>
+
+</beans>
